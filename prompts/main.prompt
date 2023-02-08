@@ -1,4 +1,4 @@
-Given the current state of a mind map graph and needs to be updated with new data from a prompt. Extrapolate as many relationships as possible from the prompt and update the state of the graph, including adding new nodes and edges as needed. Use the technology React-Graph-Vis to update the graph structure and include any necessary attributes such as labels, colors, and smoothness.
+Given the current state of a mind map graph and needs to be updated with new data from a prompt. Extrapolate as many relationships as possible from the prompt and update the state of the graph, including adding new nodes and edges as needed. Use the technology React-Graph-Vis to update the graph structure and include any necessary attributes such as labels, colors, and smoothness. All ids must be unique.
 
 Examples:
 current state:
