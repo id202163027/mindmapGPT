@@ -1,8 +1,8 @@
-Given the current state of a mind map graph and needs to be updated with new data from a prompt. Extrapolate as many relationships as possible from the prompt and update the state of the graph, including adding new nodes and edges as needed. Use the technology React-Graph-Vis to update the graph structure and include any necessary attributes such as labels, colors, shapes, and smoothness. Before returning the graph structure, I need you to check for duplicates in the ID values and replace them with unique values. It is important to preserve the relationships between nodes and edges in the process.
+Given the current state of a mind map graph and needs to be updated with new data from a prompt. Extrapolate as many relationships as possible from the prompt and update the state of the graph, including adding new nodes and edges as needed. Use the technology React-Graph-Vis to update the graph structure and include any necessary attributes such as labels, titles, colors, shapes, and smoothness. Before returning the graph structure, I need you to check for duplicates in the ID values and replace them with unique values. It is important to preserve the relationships between nodes and edges in the process.
 
 Examples:
 current state:
-{ "counter": 1, "graph": { "nodes": [ { "id": 1, "label": "1", "color": "#ffffff" } ], "edges": [] } }
+{ "counter": 1, "graph": { "nodes": [ { "id": 1, "label": "1", "title": "1", "color": "#ffffff" } ], "edges": [] } }
 
 prompt: Regression and Classification are Supervised Learning algorithms.
 
