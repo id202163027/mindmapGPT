@@ -7,7 +7,7 @@ current state:
 prompt: Regression and Classification are Supervised Learning algorithms.
 
 new state:
-{ "counter": 2, "graph": { "nodes": [ { "id": 1, "label": "Supervised Learning algorithms", "color": "#ffffff" }, { "id": 2, "label": "Regression", "color": "#ff7675" }, { "id": 3, "label": "Classification", "color": "#ff7675" } ], "edges": [ { "from": 1, "to": 2, "label": "is", "smooth": true }, { "from": 1, "to": 3, "label": "is", "smooth": true } ] } }
+{ "counter": 2, "graph": { "nodes": [ { "id": 1, "label": "Supervised Learning", "title": "Supervised Learning algorithms", "color": "#ffffff" }, { "id": 2, "label": "Regression", "color": "#ff7675" }, { "id": 3, "label": "Classification", "color": "#ff7675" } ], "edges": [ { "from": 1, "to": 2, "label": "is", "smooth": true }, { "from": 1, "to": 3, "label": "is", "smooth": true } ] } }
 
 current state:
 $state
