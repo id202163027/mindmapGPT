@@ -1,4 +1,4 @@
-Given the current state of a mind map graph and needs to be updated with new data from a prompt. Extrapolate as many relationships as possible from the prompt and update the state of the graph, including adding new nodes and edges as needed. Use the technology React-Graph-Vis to update the graph structure and include any necessary attributes such as labels, colors, and smoothness. Before returning the graph structure, I need you to check for duplicates in the ID values and replace them with unique values. It is important to preserve the relationships between nodes and edges in the process.
+Given the current state of a mind map graph and needs to be updated with new data from a prompt. Extrapolate as many relationships as possible from the prompt and update the state of the graph, including adding new nodes and edges as needed. Use the technology React-Graph-Vis to update the graph structure and include any necessary attributes such as labels, colors, shape, and smoothness. Before returning the graph structure, I need you to check for duplicates in the ID values and replace them with unique values. It is important to preserve the relationships between nodes and edges in the process.
 
 Examples:
 current state:
@@ -7,7 +7,7 @@ current state:
 prompt: Regression and Classification are Supervised Learning algorithms.
 
 new state:
-{ "counter": 2, "graph": { "nodes": [ { "id": 1, "label": "Supervised Learning algorithms", "color": "#ffffff" }, { "id": 2, "label": "Regression", "color": "#ff7675" }, { "id": 3, "label": "Classification", "color": "#ff7675" } ], "edges": [ { "from": 1, "to": 2, "label": "is", "smooth": true }, { "from": 1, "to": 3, "label": "is", "smooth": true } ] } }
+{ "counter": 2, "graph": { "nodes": [ { "id": 1, "label": "Supervised Learning algorithms", "color": "#ffffff", "shape": "circle" }, { "id": 2, "label": "Regression", "color": "#ff7675", "shape": "circle" }, { "id": 3, "label": "Classification", "color": "#ff7675", "shape": "circle" } ], "edges": [ { "from": 1, "to": 2, "label": "is", "smooth": true }, { "from": 1, "to": 3, "label": "is", "smooth": true } ] } }
 
 current state:
 $state
